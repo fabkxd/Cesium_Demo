@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Use correct character set. -->
+  <meta charset="utf-8">
+  <!-- Tell IE to use the latest, best version (or Chrome Frame if pre-IE11). -->
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <!-- Make the application on mobile take up the full browser screen and disable user scaling. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>Demo</title>
+  <link href="../Build/Cesium/Widgets/widgets.css" rel="stylesheet"/>
+  <link href="css/bootstrap.css" rel="stylesheet"/>
+  <link href="css/flat-ui.css" rel="stylesheet"/>
+  <link href="css/demo.css" rel="stylesheet"/>
+  <script src="js/jquery.js"></script>
+  <script src="../Build/Cesium/Cesium.js"></script>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div id="buttonBox" class="col-lg-1 col-md-2 col-xs-12">
+        <div class="col-md-12 col-xs-4">
+          <button id="random" class="btn btn-info btn-block col-xs-4">go to a random place</button>
+        </div>
+        <div class="col-md-12 col-xs-4">
+          <button id="surround" class="btn btn-info btn-block col-xs-4">start a surround view</button>
+        </div>
+        <div class="col-md-12 col-xs-4">
+          <button id="fly" class="btn btn-info btn-block col-xs-4">take a plane to travel!</button>
+        </div>
+        <p id="info"></p>
+      </div>
+      <div id="cesiumContainer" class="col-lg-11 col-md-10 col-xs-12"></div>
+    </div>
+  </div>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/demo.js"></script>
+</body>
+</html>

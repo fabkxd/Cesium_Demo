@@ -1,0 +1,39 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+}
+div.container-fluid {
+	height: 100%;
+}
+
+div.row {
+	margin: 0;
+	height: 100%;
+	width: 100%;
+}
+
+div#cesiumContainer {
+	padding: 0;
+	height: 100%;
+}
+
+
+div#buttonBox {
+	padding: 0;
+}
+div#buttonBox>div {
+	padding: 0;
+}
+
+p {
+	padding: 10px;
+	color: white;
+	font-size: 15px;
+}
+p>span {
+	color: red;
+}
